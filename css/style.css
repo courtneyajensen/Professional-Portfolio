@@ -15,19 +15,18 @@ main {
   margin-top: 10%;
 }
 
-.image {
-  height: 500px;
-  position: relative;
-  border: 3px solid #dbe4ed;
-}
-
 .main-header {
   display: flex;
   /* Defines how to distribute the empty space between child elements */
   justify-content:space-between;
-  padding: 60px;
-  background: #0f0e0f;
-  color: #fff;
+  padding: 10px;
+  background: #a50404;
+  color: #fff
+}
+
+body {
+  background-color: gainsboro;
+  background-image: Img.jpeg\marek-piwnicki-UhMmyZV1Q0k-unsplash.jpg;
 }
 
 .card {
@@ -46,7 +45,7 @@ main {
   color: #fff;
 }
 
-.card.Projects {
+.card.Work {
   /* With a flex-grow value of 2, this element grows twice as wide as others */
   /* The second value, flex-shrink, defines how the element will shrink if it can't fit */
   flex: 2 1 200px;
