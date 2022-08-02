@@ -3,10 +3,43 @@ body {
   background-color:lavenderblush
 }
 
-h1, h2  {
-  color: rgb(124, 39, 164); font-family:fantasy; font-weight: lighter;
+h1 {
+  color: rgb(124, 39, 164); 
+  font-family: fantasy; 
+  font-weight: lighter;
+  font-size: 60px;
+  padding-left: 7%;
+
 }
 
-p, section, {
-  color: rgb(9, 0, 10); font-family:fantasy; font-weight:lighter;
+h2 {
+  color: rgb(124, 39, 164); 
+  font-family: fantasy; 
+  font-weight: lighter;
+  font-size: 35px;
+  text-align: end;
+  padding-right: 8%;
+  padding-bottom: 3%;
 }
+
+p {
+  color: black; 
+  font-family: fantasy; 
+  font-weight: lighter;
+  font-size: 55px;
+  font-variant: small-caps;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 25px;
+  color: black; 
+  font-family: fantasy; 
+  font-weight: lighter;
+  text-decoration-line:underline;
+}
+
+
