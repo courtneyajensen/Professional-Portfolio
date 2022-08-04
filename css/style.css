@@ -3,6 +3,10 @@ body {
   background-color:lavenderblush
 }
 
+header {
+  border: solid, black;
+}
+
 h1 {
   color: rgb(124, 39, 164); 
   font-family: fantasy; 
@@ -28,6 +32,7 @@ p {
   font-weight: lighter;
   font-size: 55px;
   font-variant: small-caps;
+  padding: 3%;
 }
 
 .flex-container {
@@ -40,6 +45,11 @@ p {
   font-family: fantasy; 
   font-weight: lighter;
   text-decoration-line:underline;
+  border: solid black;
+  border-width: 5px;
 }
 
-
+h3 {
+  color: rgb(124, 39, 164);
+  font-size: 25px;
+}
