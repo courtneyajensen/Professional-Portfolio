@@ -3,27 +3,23 @@ body {
   background-color:lavenderblush
 }
 
+.main-header {
+  background-color: white;
+}
+
 header {
   border: solid, black;
 }
 
-h1 {
-  color: rgb(124, 39, 164); 
-  font-family: fantasy; 
-  font-weight: lighter;
-  font-size: 60px;
-  padding-left: 7%;
-
-}
-
 h2 {
-  color: rgb(124, 39, 164); 
+  color: rgb(112, 21, 91); 
   font-family: fantasy; 
   font-weight: lighter;
   font-size: 35px;
-  text-align: end;
+  padding-left: 2%;
   padding-right: 8%;
   padding-bottom: 3%;
+  display: inline;
 }
 
 p {
@@ -49,7 +45,18 @@ p {
   border-width: 5px;
 }
 
+h5 {
+  color: black; 
+  font-family: fantasy; 
+  font-weight: lighter;
+  font-size: 55px;
+  font-variant:normal;
+  padding: 3%;
+}
+
 h3 {
-  color: rgb(124, 39, 164);
+  color: rgb(112, 21, 91);
   font-size: 25px;
+  font-family: fantasy;
+  font-weight:lighter;
 }
