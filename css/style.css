@@ -7,10 +7,6 @@ body {
   background-color: white;
 }
 
-header {
-  border: solid, black;
-}
-
 h2 {
   color: rgb(112, 21, 91); 
   font-family: fantasy; 
@@ -22,27 +18,41 @@ h2 {
   display: inline;
 }
 
+.nav-list {
+  background-color:lavenderblush
+  margin:0;
+  padding: 10px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  list-style: none;
+  
+}
+
+.nav-item{
+  margin-right:23px;
+  font-family: fantasy; 
+  font-weight: lighter;
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.nav-item a {
+  text-decoration:none;
+  color:black;
+}
+
+.nav-item a:hover{
+  color:rgb(112, 21, 91);
+}
+
 p {
   color: black; 
   font-family: fantasy; 
   font-weight: lighter;
-  font-size: 55px;
-  font-variant: small-caps;
+  font-size: 40px;
+  font-variant: normal;
   padding: 3%;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  font-size: 25px;
-  color: black; 
-  font-family: fantasy; 
-  font-weight: lighter;
-  text-decoration-line:underline;
-  border: solid black;
-  border-width: 5px;
 }
 
 h5 {
@@ -50,8 +60,19 @@ h5 {
   font-family: fantasy; 
   font-weight: lighter;
   font-size: 55px;
-  font-variant:normal;
+  font-variant:small-caps;
   padding: 3%;
+}
+
+li {
+  color: black; 
+  font-family: fantasy; 
+  font-weight: lighter;
+  font-size: 45px;
+  font-variant: normal;
+  padding-left:0.5%;
+  list-style:none;
+  text-decoration:underline;
 }
 
 h3 {
