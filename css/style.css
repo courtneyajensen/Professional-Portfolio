@@ -26,7 +26,6 @@ h2 {
   justify-content:space-around;
   align-items:center;
   list-style: none;
-  
 }
 
 .nav-item{
@@ -50,9 +49,10 @@ p {
   color: black; 
   font-family: fantasy; 
   font-weight: lighter;
-  font-size: 40px;
+  font-size: 30px;
   font-variant: normal;
-  padding: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 h5 {
@@ -61,7 +61,10 @@ h5 {
   font-weight: lighter;
   font-size: 55px;
   font-variant:small-caps;
-  padding: 3%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 li {
@@ -71,13 +74,22 @@ li {
   font-size: 45px;
   font-variant: normal;
   padding-left:0.5%;
+  padding-top:5%;
   list-style:none;
   text-decoration:underline;
 }
 
 h3 {
   color: rgb(112, 21, 91);
-  font-size: 25px;
+  font-size: 30px;
   font-family: fantasy;
   font-weight:lighter;
+  padding-left: 3%;
+}
+
+.img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
